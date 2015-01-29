@@ -1,0 +1,17 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+autopublish
+insecure
+preserve-inputs
+backbone
+bootstrap
+jquery
+accounts-password
+underscore
+coffeescript
+accounts-urls
+accounts-base
+accounts-ui

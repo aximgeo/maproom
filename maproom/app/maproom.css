@@ -1,0 +1,20 @@
+/* CSS declarations go here */
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#mapDiv img{max-width:none}
+#mapDiv label {
+    width: auto; display:inline;
+}
+
+.items-table-container {
+    height:340px;
+    overflow-y: auto;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    margin-right: 0; margin-left: 0;
+}

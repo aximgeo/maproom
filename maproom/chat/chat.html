@@ -1,0 +1,22 @@
+<template name='chatRoom'>
+	<h1>Chat</h1>
+	<div class='items-table-container well' id='chatWindow'>
+		<table class='table table-striped'>
+			<tbody>
+			{{#each messages}}
+				<tr>
+					<td>
+						<b><i class="icon-user"></i> {{name}}:</b> {{message}}  <br/>
+					</td>
+				</tr>
+			{{/each}}
+			</tbody>
+		</table>
+	</div>
+    <form class="form-search"></form>
+        <input type='text' class="input-medium search-query" id='newMessageText' placeholder="Enter message..."/>
+        <button type='button' class="btn btn-primary" id='sendButton' >Send</button>
+    </form>
+</template>
+
+
