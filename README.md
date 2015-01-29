@@ -1,6 +1,6 @@
 # MapRoom - A real-time location sharing proof-of-concept 
 
-![Maproom Screenshot](browse/Maproom.png?at=decf288249657fe2671ca29e93917fb6b71d99f9&raw)
+![Maproom Screenshot](https://raw.githubusercontent.com/gisinc/maproom/master/Maproom.png)
 
 ## Description
 
