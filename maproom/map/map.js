@@ -10,7 +10,7 @@ if (Meteor.isClient) {
 
         //map.setCenter(35.96, -83.92);
 
-    })
+    });
 
     Template.map.rendered = function () {
         var that = this;
@@ -68,7 +68,7 @@ if (Meteor.isClient) {
                 }
             });
         }
-    }
+    };
 
     Template.map.destroyed = function () {
         this.handle && this.handle.stop();
